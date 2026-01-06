@@ -1,0 +1,54 @@
+# AI Education Platform - Robots.txt
+# Website: https://edukasiai.pages.dev
+# Generated: 2026-01-06
+
+User-agent: *
+Allow: /
+Allow: /index.html
+
+# Allow specific bots (SEO and AI crawlers)
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 10
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 10
+
+# Block problematic bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: dotbot
+Disallow: /
+
+User-agent: MegaIndex
+Disallow: /
+
+# Sitemap declaration
+Sitemap: https://edukasiai.pages.dev/sitemap.xml
+
+# Host declaration (for canonicalization)
+Host: https://edukasiai.pages.dev
